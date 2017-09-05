@@ -1,0 +1,69 @@
+//demonstrates it handles overflow properly as well as underflow
+Client 1 put 4 page(s) into buffer location 0
+Printer starts printing 4 pages from client 1
+Client 2 put 4 page(s) into buffer location 1
+Client 3 put 4 page(s) into buffer location 2
+Client 4 put 4 page(s) into buffer location 3
+Printer starts printing 4 pages from client 2
+Client 5 put 4 page(s) into buffer location 3
+Client 6 put 4 page(s) into buffer location 4
+Client 7 put 4 page(s) into buffer location 5
+Client 8 put 4 page(s) into buffer location 6
+Printer starts printing 4 pages from client 3
+Client 9 put 4 page(s) into buffer location 6
+Client 10 put 4 page(s) into buffer location 7
+Client 11 put 4 page(s) into buffer location 8
+Client 12 put 4 page(s) into buffer location 9
+Printer starts printing 4 pages from client 4
+Client 13 put 4 page(s) into buffer location 9
+Printer starts printing 4 pages from client 5
+Client 14 put 4 page(s) into buffer location 9
+Printer starts printing 4 pages from client 6
+Client 15 put 4 page(s) into buffer location 9
+Printer starts printing 4 pages from client 7
+Client 16 put 4 page(s) into buffer location 9
+Printer starts printing 4 pages from client 8
+Client 17 put 4 page(s) into buffer location 9
+Printer starts printing 4 pages from client 9
+Client 18 put 4 page(s) into buffer location 9
+Printer starts printing 4 pages from client 10
+Client 19 put 4 page(s) into buffer location 9
+Printer starts printing 4 pages from client 11
+Printer starts printing 4 pages from client 12
+Printer starts printing 4 pages from client 13
+Printer starts printing 4 pages from client 14
+Printer starts printing 4 pages from client 15
+Printer starts printing 4 pages from client 16
+Printer starts printing 4 pages from client 17
+Printer starts printing 4 pages from client 18
+Printer starts printing 4 pages from client 19
+
+
+
+
+//////new session
+Client 1 put 4 page(s) into buffer location 0
+Printer starts printing 4 pages from client 1
+Client 2 put 5 page(s) into buffer location 1
+Printer starts printing 5 pages from client 2
+Client 3 put 2 page(s) into buffer location 1
+Client 4 put 1 page(s) into buffer location 2
+Client 5 put 2 page(s) into buffer location 3
+Client 7 put 4 page(s) into buffer location 4
+Client 6 put 9 page(s) into buffer location 5
+Printer starts printing 2 pages from client 3
+Printer starts printing 1 pages from client 4
+Printer starts printing 2 pages from client 5
+Printer starts printing 4 pages from client 7
+Client 8 put 4 page(s) into buffer location 2
+Printer starts printing 9 pages from client 6
+Client 10 put 4 page(s) into buffer location 2
+Client 9 put 2 page(s) into buffer location 3
+Client 11 put 4 page(s) into buffer location 4
+Client 12 put 3 page(s) into buffer location 5
+Printer starts printing 4 pages from client 8
+Printer starts printing 4 pages from client 10
+Printer starts printing 2 pages from client 9
+Printer starts printing 4 pages from client 11
+Printer starts printing 3 pages from client 12
+
